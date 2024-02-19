@@ -1,0 +1,141 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body, html {
+    color: rgba(255, 255, 255, 0.664);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding-bottom: 50px;
+}
+
+header h1 {
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.8em;
+    letter-spacing: -1px;
+}
+
+header p {
+    text-align: center;
+    margin-top: 8px;
+}
+
+header{
+    background-image: linear-gradient(to bottom, #012340, #031C26, #043540);
+}
+
+nav {
+    background-color: #043540;
+    color: white;
+    padding-bottom: 13px;
+}
+
+nav a {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+nav a:hover {
+    margin: 10px;
+    padding: 10px;
+    background-color: #031C26;
+    border-radius: 5px;
+}
+
+main {
+    background-color: #303030;
+    padding-bottom: 30px;
+}
+
+main > h1,h2{
+    padding: 10px;
+    text-align: center;
+}
+
+main p {
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 1.4em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 20px;
+    text-align: justify;
+    margin: 0px 15px 0px 15px;
+}
+
+section {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    line-height: 1.5em;
+    padding-left: 30px;
+}
+
+section p {
+    display: block;
+    background-color: rgba(0, 0, 0, 0.205);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.253);
+    border-radius: 5px;
+}
+
+section#img02 p {
+    color: white;
+    display: block;
+    background-color: #33333373;
+    box-shadow: 3px 3px 3px #3333331a;
+}
+
+section#img01 {
+    margin: 0px;
+    background-image: url(imagens/dev1.jpg);
+    background-position: left top;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+section#img02 {
+    background-image: url(imagens/dev2.jpg);
+    background-position: left top;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+section p {
+    position: relative;
+    display: block;
+    max-width: 260px;
+    color: white;
+}
+
+footer {
+    background-image: linear-gradient(to right, #012340, #031C26, #043540);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    word-spacing: 1px;
+}
+
+footer > p, a {
+    padding: 4px;
+}
+
+footer a {
+    text-decoration: underline;
+    color: white;
+}
+
+
+
